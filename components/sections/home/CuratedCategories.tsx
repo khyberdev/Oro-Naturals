@@ -6,25 +6,25 @@ const categories = [
     name: "Extra Virgin Olive Oil",
     tagline: "The signature cold-pressed gold",
     href: "/shop",
-    gradient: "from-emerald-800 to-emerald-950",
+    image: "/images/Extra%20Virgin%20Olive%20Oil.png",
   },
   {
     name: "Flavored Oils",
     tagline: "Infused with herbs & citrus",
     href: "/shop",
-    gradient: "from-amber-700 to-emerald-900",
+    image: "/images/Flavoured%20OIl.png",
   },
   {
     name: "Olive Vinegar",
     tagline: "Aged for depth & balance",
     href: "/shop",
-    gradient: "from-emerald-900 to-stone-800",
+    image: "/images/Olive%20Vinegar.png",
   },
   {
     name: "Olive Green Tea",
     tagline: "Leaves steeped in wellness",
     href: "/shop",
-    gradient: "from-emerald-700 to-emerald-950",
+    image: "/images/Olive%20Green%20tea.png",
   },
 ];
 
@@ -49,9 +49,10 @@ export function CuratedCategories() {
               className="group relative flex aspect-[3/4] flex-col justify-end overflow-hidden rounded-sm"
             >
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${category.gradient} transition-transform duration-700 ease-out group-hover:scale-110`}
+                className="absolute inset-0 scale-110 bg-emerald-950 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-125"
+                style={{ backgroundImage: `url('${category.image}')` }}
               />
-              <div className="absolute inset-0 bg-black/20 transition-colors duration-500 group-hover:bg-black/40" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/20 transition-colors duration-500 group-hover:from-black/90" />
 
               <div className="relative z-10 p-7">
                 <h3 className="font-serif text-xl text-white md:text-2xl">
