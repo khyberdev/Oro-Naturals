@@ -7,19 +7,52 @@ export function HeritageSection() {
     <section className="bg-white py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
-          <div className="relative">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-slate-100">
+          <figure className="relative">
+            <div
+              className="pointer-events-none absolute inset-0 -z-10 opacity-60"
+              style={{
+                backgroundImage:
+                  "radial-gradient(60% 55% at 50% 45%, rgba(197,162,83,0.12), transparent 70%)",
+              }}
+            />
+
+            <div className="relative aspect-[4/5]">
               <Image
                 src="/images/owners-portrait.png"
-                alt="The Oro Naturals family estate"
+                alt="Salahuddin Khattak and Abdullah Khattak, the Oro Naturals family"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                className="object-contain object-bottom"
                 priority
               />
             </div>
-            <div className="absolute -bottom-5 -right-5 -z-10 h-full w-full rounded-sm border border-amber-500/60" />
-          </div>
+
+            <figcaption className="mt-2 text-center">
+              <p className="text-[0.7rem] font-medium uppercase tracking-[0.3em] text-amber-600">
+                Father &amp; Son
+              </p>
+              <div className="mx-auto my-4 h-px w-10 bg-amber-500/60" />
+              <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-6">
+                <div>
+                  <p className="font-serif text-lg text-emerald-950">
+                    Salahuddin Khattak
+                  </p>
+                  <p className="font-sans text-xs uppercase tracking-[0.15em] text-slate-500">
+                    Founder &amp; Owner
+                  </p>
+                </div>
+                <span className="hidden h-8 w-px bg-emerald-950/15 sm:block" />
+                <div>
+                  <p className="font-serif text-lg text-emerald-950">
+                    Abdullah Khattak
+                  </p>
+                  <p className="font-sans text-xs uppercase tracking-[0.15em] text-slate-500">
+                    Co-Founder
+                  </p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
 
           <div className="lg:pl-6">
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-amber-600">

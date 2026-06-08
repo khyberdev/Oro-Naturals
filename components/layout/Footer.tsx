@@ -36,7 +36,7 @@ export function Footer({ settings }: FooterProps) {
 
   const address =
     settings?.address ??
-    "Maraji, Nowshera,\nKhyber Pakhtunkhwa, Pakistan";
+    "Nowshera,\nKhyber Pakhtunkhwa, Pakistan";
   const phone = settings?.phoneNumber ?? "+92 123 456 7890";
   const emailContact = settings?.contactEmail ?? "hello@oronaturals.com";
   const tagline =

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Droplet } from "lucide-react";
 
 const HERO_VIDEO_URL =
-  "https://res.cloudinary.com/dbwfsmjol/video/upload/q_auto/f_auto/v1780884011/Video_Project_5_y8ermk.mp4";
+  "https://res.cloudinary.com/dbwfsmjol/video/upload/v1780884011/Video_Project_5_y8ermk.mp4";
 
 export function CinematicHero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -41,8 +41,8 @@ export function CinematicHero() {
         <source src={HERO_VIDEO_URL} type="video/mp4" />
       </video>
 
-      <div className="absolute inset-0 z-10 bg-emerald-950/70" />
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/50 via-black/20 to-black/70" />
+      <div className="absolute inset-0 z-10 bg-emerald-950/35" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/30 via-transparent to-black/45" />
 
       <div className="relative z-20 mx-auto max-w-4xl px-6 pt-32 text-center">
         <p className="mb-6 animate-fade-in text-xs font-medium uppercase tracking-[0.35em] text-oro-gold sm:text-sm">
@@ -56,7 +56,7 @@ export function CinematicHero() {
         </h1>
 
         <p className="mx-auto mb-12 max-w-2xl text-base leading-relaxed text-white/80 text-pretty sm:text-lg md:text-xl">
-          Premium, Cold-Pressed Extra Virgin Olive Oil from the heart of Maraji,
+          Premium, Cold-Pressed Extra Virgin Olive Oil from the heart of
           Nowshera.
         </p>
 
