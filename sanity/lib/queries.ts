@@ -1,0 +1,16 @@
+export {
+  ACCOLADES_QUERY,
+  CATEGORIES_QUERY,
+  CATEGORY_BY_SLUG_QUERY,
+  FEATURED_PRODUCTS_QUERY,
+  PRODUCT_BY_SLUG_QUERY,
+  PRODUCT_SLUGS_QUERY,
+  PRODUCTS_BY_CATEGORY_QUERY,
+  PRODUCTS_QUERY,
+  SITE_SETTINGS_QUERY,
+  VARIETIES_QUERY,
+  categoryProjection,
+  imageProjection,
+  productCardProjection,
+  productDetailProjection,
+} from "@/lib/sanity/queries";
