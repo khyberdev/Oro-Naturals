@@ -67,10 +67,11 @@ export function HeritageSection() {
 
             <p className="text-base leading-relaxed text-slate-600 md:text-lg">
               Established in 2012, Oro Naturals is a proud family-owned estate
-              spanning 43 acres in Maraji, Nowshera. Across these groves, every
-              tree is tended by hand and every harvest honored with patience —
-              uniting generations of devotion with an unwavering pursuit of
-              purity in every golden drop.
+              rooted across two farms in Khyber Pakhtunkhwa — 43 acres in
+              Nowshera and 81 acres in Kohat. Across these groves, every tree is
+              tended by hand and every harvest honored with patience — uniting
+              generations of devotion with an unwavering pursuit of purity in
+              every golden drop.
             </p>
 
             <Link

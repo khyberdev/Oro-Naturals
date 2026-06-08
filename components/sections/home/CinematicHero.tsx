@@ -41,8 +41,8 @@ export function CinematicHero() {
         <source src={HERO_VIDEO_URL} type="video/mp4" />
       </video>
 
-      <div className="absolute inset-0 z-10 bg-emerald-950/35" />
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/30 via-transparent to-black/45" />
+      <div className="absolute inset-0 z-10 bg-emerald-950/45" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/40 via-black/10 to-black/55" />
 
       <div className="relative z-20 mx-auto max-w-4xl px-6 pt-32 text-center">
         <p className="mb-6 animate-fade-in text-xs font-medium uppercase tracking-[0.35em] text-oro-gold sm:text-sm">
@@ -56,8 +56,8 @@ export function CinematicHero() {
         </h1>
 
         <p className="mx-auto mb-12 max-w-2xl text-base leading-relaxed text-white/80 text-pretty sm:text-lg md:text-xl">
-          Premium, Cold-Pressed Extra Virgin Olive Oil from the heart of
-          Nowshera.
+          Premium, Cold-Pressed Extra Virgin Olive Oil from the heart of KPK —
+          Nowshera &amp; Kohat.
         </p>
 
         <Link

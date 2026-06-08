@@ -86,7 +86,7 @@ export async function getSiteSettings() {
   return client.fetch<SiteSettings | null>(
     SITE_SETTINGS_QUERY,
     {},
-    { next: { revalidate: 3600, tags: ["sanity:site-settings"] } },
+    { next: { revalidate: 60, tags: ["sanity:site-settings"] } },
   );
 }
 

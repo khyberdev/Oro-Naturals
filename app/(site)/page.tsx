@@ -9,7 +9,7 @@ import { GlobalPrestige } from "@/components/sections/home/GlobalPrestige";
 export const metadata: Metadata = {
   title: "Oro Naturals | Premium Extra Virgin Olive Oil",
   description:
-    "The purest expression of nature. Premium, cold-pressed extra virgin olive oil from the heart of Maraji, Nowshera.",
+    "The purest expression of nature. Premium, cold-pressed extra virgin olive oil from the heart of KPK — Nowshera & Kohat.",
 };
 
 export default function HomePage() {

@@ -36,6 +36,17 @@ export function Genesis() {
                   vision soon took root in the soil itself.
                 </p>
                 <p>
+                  As our roots deepened, so did our ambition. The family planted
+                  a second home for the olive in{" "}
+                  <span className="font-medium text-emerald-900">Kohat</span> — a
+                  sweeping 81-acre grove where nearly{" "}
+                  <span className="font-medium text-emerald-900">
+                    10,000 olive trees
+                  </span>{" "}
+                  now rise from the Pakhtunkhwa earth, doubling our devotion to
+                  the land and the craft.
+                </p>
+                <p>
                   In those early years, our devotion to purity earned the trust
                   of discerning partners. We supplied our cold-pressed oils
                   through respected wholesale relationships with{" "}

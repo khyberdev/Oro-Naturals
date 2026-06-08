@@ -10,7 +10,7 @@ import { ClosingInvitation } from "@/components/sections/story/ClosingInvitation
 export const metadata: Metadata = {
   title: "Our Story | Oro Naturals",
   description:
-    "A Legacy of Purity — discover the heritage of Oro Naturals, a family-owned olive estate established in 2012 across 43 acres in Maraji, Nowshera, KPK.",
+    "A Legacy of Purity — discover the heritage of Oro Naturals, a family-owned olive estate established in 2012 across 43 acres in Nowshera and 81 acres in Kohat, Khyber Pakhtunkhwa.",
 };
 
 export default function OurStoryPage() {
